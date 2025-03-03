@@ -1,0 +1,16 @@
+int countPairs(vector<int>& arr1, vector<int>& arr2, int x) {
+        unordered_set<int> numsSet;
+        int res=0;
+        
+        for(auto it: arr1)
+            numsSet.insert(it);
+        for(int i=0;i<arr2.size(); i++)
+        {
+            int complement = x-arr2[i];
+            if(numsSet.find(complement)!=numsSet.end())
+            {
+                res++;
+            }
+        }
+        return res;
+    }
