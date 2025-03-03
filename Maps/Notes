@@ -1,0 +1,13 @@
+Unordered_set
+internal structure: Hashing
+1. insert, search, delete - O(1) average
+2. traverse - O(n)
+
+Set
+internal structure: Binart search tree 
+sorts data
+1. search, insert, delete- O(logn)
+
+Loop Type for Map
+for (auto it = arrMap.begin(); it != arrMap.end(); it++)	  Iterator (Pointer-Like)	        it->first, it->second
+for (auto it : arrMap)	                                    Pair<int, int> (Value Copy)	    it.first, it.second
