@@ -1,0 +1,9 @@
+Unordered_set
+internal structure: Hashing
+1. insert, search, delete - O(1) average
+2. traverse - O(n)
+
+Set
+internal structure: Binart search tree 
+sorts data
+1. search, insert, delete- O(logn)
